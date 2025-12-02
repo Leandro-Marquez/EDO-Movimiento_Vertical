@@ -19,17 +19,13 @@ Gráficos: soluciones, campos de isoclinas, diagramas de bifurcación y planos d
 
 notebooks/ → Carpeta con cuadernos interactivos en Python:
 
-parteA_isoclinas.ipynb → Cinemática vertical, cálculo de velocidad inicial y campo de isoclinas.
+parteA_isoclinas.py → Cinemática vertical, cálculo de velocidad inicial y campo de isoclinas.
 
-parteB_bifurcacion.ipynb → Diagrama de bifurcación con parámetro 
+parteB_bifurcacion.py → Diagrama de bifurcación con parámetro 
 𝑝
 .
 
-parteC_plano_fase.ipynb → Plano de fase del sistema altura–velocidad y clasificación de puntos críticos.
-
-data/ → Benchmarks y ejemplos con soluciones analíticas conocidas.
-
-src/ → Código auxiliar en Python (funciones de integración numérica, análisis de error, visualización).
+parteC_plano_fase.py → Plano de fase del sistema altura–velocidad y clasificación de puntos críticos.
 
 ⚙️ Instalación y Requisitos
 Instalar Python 3.10+
@@ -41,13 +37,13 @@ pip install numpy scipy matplotlib plotly
 Abrir los notebooks con Jupyter o VS Code.
 
 🚀 Ejecución
-Parte A (Isoclinas): Ejecutar parteA_isoclinas.ipynb para calcular la velocidad inicial del proyectil y graficar el campo de isoclinas.
+Parte A (Isoclinas): Ejecutar parteA_isoclinas.py para calcular la velocidad inicial del proyectil y graficar el campo de isoclinas.
 
-Parte B (Bifurcación): Ejecutar parteB_bifurcacion.ipynb para obtener los puntos de equilibrio según el parámetro 
+Parte B (Bifurcación): Ejecutar parteB_bifurcacion.py para obtener los puntos de equilibrio según el parámetro 
 𝑝
 , clasificar su estabilidad y visualizar el diagrama de bifurcación.
 
-Parte C (Plano de fase): Ejecutar parteC_plano_fase.ipynb para calcular puntos críticos del sistema altura–velocidad, clasificarlos y graficar el plano de fase.
+Parte C (Plano de fase): Ejecutar parteC_plano_fase.py para calcular puntos críticos del sistema altura–velocidad, clasificarlos y graficar el plano de fase.
 
 📊 Métodos Numéricos
 Se implementan y comparan al menos dos algoritmos:
