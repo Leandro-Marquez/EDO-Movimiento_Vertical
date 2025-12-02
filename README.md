@@ -1,6 +1,8 @@
 Proyecto Conjunto EDO y Matemática Numérica
 Tema 2: Movimiento vertical y aceleración gravitacional Curso 2025–2026, Universidad de La Habana
 
+![Movimiento vertical y aceleración gravitacional](./Images/R.png)
+
 🎯 Objetivo
 Este proyecto aplica Ecuaciones Diferenciales Ordinarias (EDO) y Matemática Numérica (MN) para modelar y analizar el movimiento vertical bajo aceleración gravitacional. Se busca integrar modelación física, análisis teórico, simulación numérica y visualización interactiva.
 
@@ -21,7 +23,7 @@ notebooks/ → Carpeta con cuadernos interactivos en Python:
 
 parteA_isoclinas.py → Cinemática vertical, cálculo de velocidad inicial y campo de isoclinas.
 
-parteB_bifurcacion.py → Diagrama de bifurcación con parámetro 
+parteB_bifurcacion.ipynb → Diagrama de bifurcación con parámetro 
 𝑝
 .
 
